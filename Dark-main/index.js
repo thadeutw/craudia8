@@ -380,6 +380,10 @@ async function starts() {
 					buffer = await getBuffer(`https://i.imgur.com/yOFxSUR.jpg`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Boa noite fml ❤️'})
 					break
+case 'az':
+client.sendMessage(from, {url:https://images.app.goo.gl/U5JAQgJWLB41qzuX6}, image, {quoted: mek})
+break
+
 				case 'belle':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZu6GwgURUgkuWZXOq-KPLRvA5LOezhvY_VQ&usqp=CAU`)
